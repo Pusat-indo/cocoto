@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Indo Cocoto - Selamat Datang</title>
+    <style>
+        /* Reset dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #28a745; /* Hijau Indonesia */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Navigasi */
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Konten Utama */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.1em;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .section {
+            flex: 1 1 300px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+
+        .section h3 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pusat Indo Cocoto</h1>
+        <p>Pusat Informasi dan Layanan Terpercaya di Indonesia</p>
+    </header>
+
+    <nav>
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Layanan</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <section id="home" class="hero">
+            <h2>Selamat Datang di Pusat Indo Cocoto</h2>
+            <p>Kami menyediakan informasi terkini, layanan berkualitas, dan solusi inovatif untuk kebutuhan Anda. Jelajahi lebih lanjut!</p>
+        </section>
+
+        <div class="content">
+            <div class="section" id="about">
+                <h3>Tentang Kami</h3>
+                <p>Pusat Indo Cocoto adalah platform terdepan untuk informasi dan layanan di Indonesia. Kami berkomitmen untuk memberikan pengalaman terbaik dengan fokus pada inovasi dan kepuasan pelanggan.</p>
+            </div>
+
+            <div class="section" id="services">
+                <h3>Layanan Kami</h3>
+                <ul>
+                    <li>Konsultasi dan Informasi</li>
+                    <li>Layanan Online</li>
+                    <li>Dukungan Teknis</li>
+                    <li>Produk Kustom</li>
+                </ul>
+            </div>
+
+            <div class="section" id="contact">
+                <h3>Kontak Kami</h3>
+                <p>Email: info@pusatindo-cocoto.com</p>
+                <p>Telepon: +62 123 456 789</p>
+                <p>Alamat: Jakarta, Indonesia</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Pusat Indo Cocoto. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
